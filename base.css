@@ -1,45 +1,59 @@
-html, body {
+html,
+body {
     margin: 0;
 }
+
 body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
 }
 
-
 .wrapper {
     width: 1500px;
     height: auto;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(5, 108, 108);
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
     background-color: lightgray;
     padding: 10px 20px 0px;
     color: white;
 }
+
 .menu-style {
     list-style-type: none;
     padding-left: 10px;
 }
+
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
     margin: auto;
+    display: flex;
 }
+
+.header .container-image {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
 .footer {
     background-color: rgb(70, 69, 73);
     min-height: 150px;
@@ -47,6 +61,8 @@ body {
     padding: 20px;
     padding-top: 0;
 }
+
 .img-width {
     width: 15%;
+    height: fit-content;
 }
